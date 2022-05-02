@@ -24,7 +24,8 @@ title.addEventListener("click",()=>{
 img.src=el.urlToImage;
 div1.append(title,content)
 imgdiv.append(img)
-container.append(imgdiv,div1)
+div.append(imgdiv,div1)
+container.append(div)
 
     })
 }
